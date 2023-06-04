@@ -11,6 +11,7 @@
 		6EDB1A4A2A2CBA0C00FB14AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDB1A492A2CBA0C00FB14AC /* ContentView.swift */; };
 		6EDB1A4C2A2CBA0D00FB14AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDB1A4B2A2CBA0D00FB14AC /* Assets.xcassets */; };
 		6EDB1A4F2A2CBA0D00FB14AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EDB1A4E2A2CBA0D00FB14AC /* Preview Assets.xcassets */; };
+		6EDB1A562A2CC07700FB14AC /* CypherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDB1A552A2CC07700FB14AC /* CypherService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6EDB1A492A2CBA0C00FB14AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6EDB1A4B2A2CBA0D00FB14AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EDB1A4E2A2CBA0D00FB14AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6EDB1A552A2CC07700FB14AC /* CypherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CypherService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		6EDB1A462A2CBA0C00FB14AC /* nCrypt */ = {
 			isa = PBXGroup;
 			children = (
+				6EDB1A552A2CC07700FB14AC /* CypherService.swift */,
 				6EDB1A472A2CBA0C00FB14AC /* nCryptApp.swift */,
 				6EDB1A492A2CBA0C00FB14AC /* ContentView.swift */,
 				6EDB1A4B2A2CBA0D00FB14AC /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EDB1A562A2CC07700FB14AC /* CypherService.swift in Sources */,
 				6EDB1A4A2A2CBA0C00FB14AC /* ContentView.swift in Sources */,
 				6EDB1A482A2CBA0C00FB14AC /* nCryptApp.swift in Sources */,
 			);
@@ -267,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"nCrypt/Preview Content\"";
+				DEVELOPMENT_TEAM = CW3HC33B6M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"nCrypt/Preview Content\"";
+				DEVELOPMENT_TEAM = CW3HC33B6M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
